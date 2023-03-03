@@ -1,0 +1,19 @@
+{
+  "name": "blogexpressapp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --experimental-json-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "therealtoresto",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15"
+  }
+}
